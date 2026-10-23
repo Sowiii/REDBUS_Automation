@@ -11,7 +11,7 @@ public class SeatSelectionPage {
         this.driver = driver;
     }
 
-    By seat = By.id("L7");
+    By seat = By.id("L3");
     By boardingDroppingButton = By.xpath(
         "//button[normalize-space()='Select boarding & dropping points']"
     );
